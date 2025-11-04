@@ -169,7 +169,7 @@ elif page == "📊 Results" or st.session_state.page == "📊 Results":
         # 🔁 Try Again Button
         if st.button("🔁 Try Again"):
             st.session_state.page = "🏠 Home"
-            st.experimental_rerun()
+            st.rerun()
 
 # ℹ️ About Page
 elif page == "ℹ️ About":
