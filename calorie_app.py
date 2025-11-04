@@ -111,7 +111,7 @@ if page == "🏠 Home":
 
             # Navigate to Results
             st.session_state.page = "📊 Results"
-            st.experimental_rerun()
+            st.rerun()
         except Exception as e:
             st.error(f"⚠️ Error during prediction: {e}")
 
